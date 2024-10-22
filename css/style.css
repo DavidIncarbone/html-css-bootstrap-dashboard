@@ -9,3 +9,14 @@ img {
 
     width: 50px;
 }
+
+.row>* {
+
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.di-ps-15 {
+
+    padding-left: 15px;
+}
