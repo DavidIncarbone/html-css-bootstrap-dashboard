@@ -46,22 +46,24 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Help</a>
                     </li>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#"></a></li>
-                        <li><a class="dropdown-item" href="#"></a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="#"></a></li>
-                    </ul>
+                    <li>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#"></a></li>
+                            <li><a class="dropdown-item" href="#"></a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#"></a></li>
+                        </ul>
+                    </li>
 
                     <li class="nav-item">
                         <a class="nav-link disabled" aria-disabled="true"></a>
                     </li>
                 </ul>
-                <form class="d-flex" role="Cerca">
-                    <input class="form-control me-2 bg-white text-bg-secondary" type="Cerca" placeholder="Cerca..."
-                        aria-label="Cerca...">
+                <form class="d-flex" role="text">
+                    <input class="form-control me-2 bg-white text-bg-secondary" type="Search" placeholder="Cerca..."
+                        aria-label="Cerca">
                     <button class="btn btn btn-dark border border-white" type="submit">Cerca</button>
                 </form>
             </div>
@@ -81,8 +83,8 @@
             </div>
         </div>
 
-        <div class="row gap-3">
-            <div class="col-lg-9 ">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-9 pe-3">
 
 
                 <table class="table table-striped table-hover ">
@@ -236,32 +238,58 @@
                 </table>
             </div>
 
-            <div class="col border ">
-                <h3 class="bg-body-secondary p-2 border">Todo</h3>
-                <div class="px-2 py-3 border-bottom">
-                    <div class=" border">
-                        <div class="form-check border ">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                            <label class="form-check-label" for="flexCheckDefault">
-                                Default checkbox
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheck2">
-                            <label class="form-check-label" for="flexCheckDefault">
-                                Default checkbox
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheck3">
-                            <label class="form-check-label" for="flexCheckDefault">
-                                Default checkbox
-                            </label>
+            <div class="col-sm-12 col-md-12 col-lg-3">
+                <div class="border mb-3">
+                    <h3 class="bg-body-secondary p-2 border">Todo</h3>
+                    <div class=" px-2 py-3 r">
+                        <div class=" border ">
+                            <div class="form-check border-bottom p-2 ps-5">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Chiamare Segreteria
+                                </label>
+                            </div>
+                            <div class="form-check border-bottom p-2 ps-5">
+                                <input class="form-check-input " type="checkbox" value="" id="flexCheck2">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Mandare avvisi prestiti scaduti
+                                </label>
+                            </div>
+                            <div class="form-check p-2 ps-5">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheck3">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Ordinare nuovi libri
+                                </label>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <div class="border mb-3">
+                    <h3 class="bg-body-secondary p-2 border">F.A.Q.</h3>
+                    <ul class=" px-2 py-3 list-unstyled ">
+                        <li class=" p-2 d-flex justify-content-between align-items-center">
+                            Come aggiungere <br> un nuovo libro?
+                            <span><i class="fa-solid fa-angle-down"></i></span>
+                        </li>
+                        <hr>
+                        <li class="p-2 d-flex justify-content-between align-items-center">
+                            Come posso accedere all'anagrafica utenti?
+                            <span><i class="fa-solid fa-angle-down"></i></span>
+                        </li>
+                        <hr>
+                        <li class="p-2 d-flex justify-content-between align-items-center">
+                            Posso usare questa dashboard
+                            da mobile?
+                            <span><i class="fa-solid fa-angle-down"></i></span>
+                        </li>
+
+
+                    </ul>
+                </div>
             </div>
         </div>
+
+    </div>
     </div>
 
 
