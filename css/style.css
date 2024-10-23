@@ -8,10 +8,24 @@ body {
 img {
 
     width: 50px;
+
 }
 
 .row>* {
 
     padding-left: 0;
     padding-right: 0;
+}
+
+#newBook label {
+
+    font-weight: bold;
+}
+
+.form-control.is-invalid,
+.was-validated .form-control:invalid {
+
+    border: 0;
+    border-left: 5px solid red;
+    border-radius: 0;
 }
