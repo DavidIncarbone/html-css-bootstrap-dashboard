@@ -11,11 +11,7 @@ img {
 
 }
 
-.row>* {
 
-    padding-left: 0;
-    padding-right: 0;
-}
 
 #newBook label {
 
@@ -32,11 +28,16 @@ img {
 
 .was-validated .form-check-input:valid {
 
-    border-color: inherit;
-
+    border-color: var(--bs-gray-400);
 }
 
 .was-validated .form-check-input:valid~.form-check-label {
     color: inherit;
+
+}
+
+div.area-text>label {
+
     font-weight: 100;
+
 }
